@@ -1,5 +1,29 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.type1 {
+  table-layout: fixed;
+  width: 100%
+}
 
+table.type1 th {
+  background-color: #2244aa;
+  padding: 10px;
+  border: solid 1px;
+  border-color: #fff;
+  color: #fff;
+}
+
+.type1 tr:nth-child(odd) {
+  background-color: #ecf1f2;
+}
+
+.type1 tr:nth-child(2) {
+  background-color: white;
+}
+
+.type1 tr:last-child {
+  border-top: dashed 2px;
+  border-color: #000;
+}
 /* 回答はここに書いてね */
