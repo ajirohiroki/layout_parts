@@ -1,5 +1,33 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.hakoniwa {
+	width: 500px;
+	border: 5px solid #222;
+	border-radius: 30px;
+	font-size: 16px;
+	line-height: 16px;
+	padding: 20px;
+	margin: 0 auto;
+	position: relative;
+}
 
+.hakoniwa:before {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 5%;
+	border: 25px solid transparent;
+	border-top: 25px solid #222;
+}
+
+.hakoniwa:after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	margin-top: -7px;
+	left: 5%;
+	border: 25px solid transparent;
+	border-top: 25px solid #fff;
+}
 /* 回答はここに書いてね */
